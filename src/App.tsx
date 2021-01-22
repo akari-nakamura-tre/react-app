@@ -1,6 +1,6 @@
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
-import Button from './components/Buntton'
-import Hello from './components/Hello'
+import Button from '@/components/Buntton'
+import Hello from '@/components/Hello'
 
 function App() {
   return (
