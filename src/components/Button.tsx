@@ -1,6 +1,11 @@
 import React from 'react'
 
-const Button: React.FC<{ counter: () => void, label: string }> = ({ counter, label }) => {
+type Props = {
+  label: string
+  counter: () => void
+}
+
+const Button: React.FC<Props> = ({ counter, label }) => {
   return (
     <>
       <button onClick={() => counter()}>{ label }</button>
